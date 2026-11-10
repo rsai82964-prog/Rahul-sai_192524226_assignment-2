@@ -1,0 +1,15 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wconversion -c /mnt/data/DSA01-RegisterNumber-Assignment2/Task03/ambiguous_original.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment2/Task03/diagnostic.o
+RETURN CODE: 1
+STDOUT:
+
+STDERR:
+/mnt/data/DSA01-RegisterNumber-Assignment2/Task03/ambiguous_original.cpp: In function ‘int main()’:
+/mnt/data/DSA01-RegisterNumber-Assignment2/Task03/ambiguous_original.cpp:4:44: error: call of overloaded ‘charge(double)’ is ambiguous
+    4 | int main() { return static_cast<int>(charge(2.0)); }
+      |                                      ~~~~~~^~~~~
+/mnt/data/DSA01-RegisterNumber-Assignment2/Task03/ambiguous_original.cpp:1:8: note: candidate: ‘double charge(double)’
+    1 | double charge(double weight) { return weight * 10; }
+      |        ^~~~~~
+/mnt/data/DSA01-RegisterNumber-Assignment2/Task03/ambiguous_original.cpp:3:8: note: candidate: ‘double charge(double, bool, bool)’
+    3 | double charge(double weight, bool express = false, bool insured = false) { return weight * 10 + (express ? 20 : 0) + (insured ? 15 : 0); }
+      |        ^~~~~~
