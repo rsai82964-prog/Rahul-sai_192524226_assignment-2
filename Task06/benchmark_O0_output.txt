@@ -1,0 +1,4 @@
+Calls per version: 10000000
+Inline microseconds: 20905
+Ordinary microseconds: 17275
+Checksum: 299999990000000

@@ -1,0 +1,1 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -O0 /mnt/data/DSA01-RegisterNumber-Assignment2/Task06/benchmark.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment2/Task06/benchmark_O0
