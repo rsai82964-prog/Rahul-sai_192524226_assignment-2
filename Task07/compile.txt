@@ -1,0 +1,12 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wconversion /mnt/data/DSA01-RegisterNumber-Assignment2/Task07/main.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment2/Task07/program
+RETURN CODE: 0
+STDOUT:
+
+STDERR:
+/mnt/data/DSA01-RegisterNumber-Assignment2/Task07/main.cpp: In function ‘int main()’:
+/mnt/data/DSA01-RegisterNumber-Assignment2/Task07/main.cpp:35:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   35 |     for(int i=0;i<n;++i) newDesign.add(i); auto c=Clock::now();
+      |     ^~~
+/mnt/data/DSA01-RegisterNumber-Assignment2/Task07/main.cpp:35:44: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   35 |     for(int i=0;i<n;++i) newDesign.add(i); auto c=Clock::now();
+      |                                            ^~~~

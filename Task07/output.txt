@@ -1,0 +1,8 @@
+Entries processed: 2000000
+Capacity: 50
+Shift design element moves: 97997550
+Circular design writes: 2000000
+Last-value sequence identical: true
+Shift elapsed microseconds: 439743
+Circular elapsed microseconds: 14671
+Expected shift moves after full: (n-capacity)*(capacity-1) = 97997550
