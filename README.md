@@ -1,7 +1,7 @@
 # DSA01-RegisterNumber-Assignment2
 
-**Student name:** [Enter your full name]  
-**Register number:** [Enter your register number]  
+**Student name:** [P Rahul Sai]  
+**Register number:** [192524226]  
 **Course:** CO2 – C++ Functions and Object-Oriented Concepts  
 **Assignment:** 2 (50 marks)  
 **Submission date in PDF:** 31/10/2026
