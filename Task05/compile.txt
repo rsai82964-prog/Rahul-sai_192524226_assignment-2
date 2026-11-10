@@ -1,0 +1,5 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wconversion /mnt/data/DSA01-RegisterNumber-Assignment2/Task05/main.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment2/Task05/program
+RETURN CODE: 0
+STDOUT:
+
+STDERR:
