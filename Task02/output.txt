@@ -1,0 +1,4 @@
+Highest before moderation: 91
+Highest after +2: 93
+Returned copy: 93
+Array: 78 93 85 88 90 
