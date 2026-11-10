@@ -1,0 +1,6 @@
+MANUAL PREDICTION (trace before comparing with recorded run):
+1 12 13
+1 100
+16 13 6
+after call by value : 45000
+after call by reference: 40500
